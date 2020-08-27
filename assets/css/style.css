@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+
+.navbar-text {
+    margin-left:300px;
+
+}
+
+.nav-item {
+    font-weight:bold;
+    text-align:center;
+    
+}
+
+
+nav ul li a {
+    text-transform: uppercase;
+    color:white;
+}
+nav ul {
+  margin-left:20px;
+}
+
+.navbar-brand{
+    margin-right:50px;
+    font-size:20px;
+}
+
+.card img {
+    height:100px;
+    width:100px;
+    border-radius:100%;
+}
+
+.header {
+    background:url('../images/banner.jpg');
+    height:700px;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.header h1 {
+    font-size:60px;
+    font-weight:700;
+    margin-top:235px;
+    color:white;
+}
+
+.header p {
+    color:white;
+    font-size:20px;
+}
+
+.forex{
+    height:800px;
+    width:100%;
+    background-color: red;
+}
+
+#forex{
+    height:auto;
+    width:100%;
+    padding:10px;
+}
+
+.logo-body {
+    background:url("../images/logo.jpeg");
+    background-size:cover;
+    background-repeat:repeat;
+}
+
+.ceo-para p {
+    font-family:'Raleway', sans-serif;
+}
+
+#dash{
+    height:1200px;
+    background-color:black;
+    bottom:0px;
+}
+
+#dash-logo{
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    margin:20px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar-text {
+        margin-left:0px;
+        display:flex;
+        justify-content:center;
+    }
+
+    
+  }
